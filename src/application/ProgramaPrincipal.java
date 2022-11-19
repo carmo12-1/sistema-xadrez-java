@@ -1,9 +1,14 @@
 package application;
 
+import boardgame.Position;
+
 public class ProgramaPrincipal {
 
 	public static void main(String[] args) {
-		System.out.println("Oi Mundo !!!");
+		
+		Position pos = new Position(3, 5);
+		System.out.println(pos);
+		
 	}
 
 }
